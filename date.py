@@ -35,3 +35,5 @@ input_date1 = input("Enter the first date (DD-MM-YYYY): ")
 input_date2 = input("Enter the second date (DD-MM-YYYY): ")
 
 print(date_diff(input_date1, input_date2))
+print(is_leap(2020))  # Example usage of is_leap function
+print(day_of_year(1, 3, 2020))  # Example usage of\
