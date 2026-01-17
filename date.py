@@ -31,4 +31,7 @@ def date_diff(date1, date2):
 
     return days
 
-print(date_diff("2020-01-15", "2021-03-10"))
+input_date1 = input("Enter the first date (DD-MM-YYYY): ")
+input_date2 = input("Enter the second date (DD-MM-YYYY): ")
+
+print(date_diff(input_date1, input_date2))
